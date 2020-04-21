@@ -2,10 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 enable_testing()
 find_package(GTest REQUIRED)
-include(GoogleTest)
-
-# for clion
-include_directories(/usr/local/include)
+include_directories(${GTEST_INCLUDE_DIRS})
 
 add_executable(tests test_binary_search.cpp)
 
