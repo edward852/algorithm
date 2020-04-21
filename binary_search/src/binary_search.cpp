@@ -1,7 +1,3 @@
-//
-// Created by liaozexian on 2020/4/21.
-//
-
 #include "binary_search.h"
 
 using namespace std;
